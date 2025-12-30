@@ -1,73 +1,163 @@
-# Welcome to your Lovable project
 
-## Project info
+# InstantIDE
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+InstantIDE is a browser-based development environment that allows users to instantly preview, run, and interact with projects directly from GitHub repositories — without complex local setup.
 
-## How can I edit this code?
+InstantIDE provides an instant coding playground where users can paste a GitHub repository link and immediately preview the project in the browser. It supports frontend, backend, and full-stack projects with intelligent handling of assets, Docker-based execution, and automatic environment setup.
 
-There are several ways of editing your application.
+The goal of InstantIDE is to remove setup friction and make learning, sharing, and showcasing projects effortless.
 
-**Use Lovable**
+## Used By
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+This project is used by:
 
-Changes made via Lovable will be committed automatically to this repo.
+- Students learning web development  
+- Educators & mentors  
+- Hackathon participants  
+- Open-source contributors 
 
-**Use your preferred IDE**
+## Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Instant GitHub repository preview  
+- Supports HTML, CSS, JavaScript projects  
+- Node.js & backend project execution  
+- Automatic Dockerfile detection & generation  
+- Raw GitHub asset handling (images, files)  
+- Live preview inside the browser  
+- No local setup required 
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Follow these steps:
+## Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Frontend: HTML, CSS, JavaScript, React  
+- Backend: Node.js, Express  
+- Containers: Docker  
+- APIs: GitHub REST API  
+- Dev Tools: Vite, NPM
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Screenshots
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/your-username/instantide.git
 ```
 
-**Edit a file directly in GitHub**
+Go to the project directory
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+  cd instantide
+```
 
-**Use GitHub Codespaces**
+Install dependencies
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+  npm install
+```
 
-## What technologies are used for this project?
+Start the server
 
-This project is built with:
+```bash
+  npm run dev
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
-## How can I deploy this project?
+## Installation
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Install my-project with npm
 
-## Can I connect a custom domain to my Lovable project?
+```bash
+  npm install  
+  cd instantide
+```
+    
+## Usage/Examples
 
-Yes, you can!
+```javascript
+1. Open InstantIDE  
+2. Paste a public GitHub repository link  
+3. InstantIDE detects project type  
+4. Environment is prepared automatically  
+5. Project preview is shown in the browser 
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  npm run test
+```
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm run build    
+```
+```bash
+  npm run start      
+```
+
+
+## Optimizations
+
+- Asset URL rewriting for raw GitHub content  
+- Intelligent project-type detection  
+- Docker-based isolation for backend projects  
+- Reduced container startup time  
+- Improved preview rendering performance  
+
+
+## Roadmap
+
+- Support for Python projects  
+- Multi-container project support  
+- Authenticated private repo previews  
+- Live terminal access  
+- Project sharing links
+
+
+## Lessons Learned
+
+- Handling diverse GitHub project structures is complex  
+- Docker automation improves reliability significantly  
+- Asset path issues require intelligent URL rewriting  
+- Developer experience matters as much as functionality  
+
+
+## FAQ
+
+#### Question 1
+
+Q: Does InstantIDE support backend projects?  
+A: Yes, Node.js projects are supported using Docker.
+
+#### Question 2
+
+Q: Do I need Docker installed locally?  
+A: No, Docker runs on the server side.
+
+
+## Related
+
+Here are some related projects
+
+- CodeSandbox  https://codesandbox.io/
+- StackBlitz   https://stackblitz.com/
+- Gitpod       https://ona.com/
+
+
+## Authors
+
+- [Yeduri Vishnuvardhan](https://www.github.com/yedurivishnuvardhan18)
+
