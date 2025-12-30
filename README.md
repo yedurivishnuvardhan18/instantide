@@ -38,7 +38,19 @@ This project is used by:
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img width="1894" height="826" alt="image" src="https://github.com/user-attachments/assets/a91710a7-6c21-4135-9a29-40a99fd4768a" />
+<img width="1894" height="895" alt="image" src="https://github.com/user-attachments/assets/492a3296-30a5-46a2-8035-5ef92d073c0f" />
+<img width="1897" height="903" alt="image" src="https://github.com/user-attachments/assets/68ed193c-bf8f-44f8-bde9-ef1890d550bc" />
+<img width="1888" height="897" alt="image" src="https://github.com/user-attachments/assets/4f41a8a2-a13e-4f70-b7d9-5463f104caa0" />
+<img width="1893" height="909" alt="image" src="https://github.com/user-attachments/assets/fd7703c0-977d-40f2-bb37-2d6cb71eb5b3" />
+<img width="1902" height="907" alt="image" src="https://github.com/user-attachments/assets/bf7e878c-7156-4c9a-893b-251c94153740" />
+
+
+
+
+
+
+
 
 
 ## Run Locally
