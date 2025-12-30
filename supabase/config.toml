@@ -1,0 +1,4 @@
+project_id = "gsqldkrmycdbstwehhrs"
+
+[functions.railway-deploy]
+verify_jwt = false
